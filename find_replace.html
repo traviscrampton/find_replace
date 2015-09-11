@@ -5,28 +5,27 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <script src="js/jquery-1.11.3.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Is it a Triangle?</title>
+    <title>Find And Replace</title>
   </head>
     <body>
-      <div class = "container">
-        <div class="jumbotron">
-          <form id="find_replace">
-            <label for="sentence">Enter In A Sentence</label>
-            <input type="text" name="sentence" id="sentence">
-            <br>
-            <br>
-            <label for="find">Which Word Would You Like To Replace</label>
-            <input type="text" name="find" id="find">
-            <br>
-            <br>
-            <label for="replace">What Would You Like To Replace It With</label>
-            <input type="text" name="replace" id="replace">
+      <div class="container jumbotron">
+        <form id="find_replace">
+          <label for="sentence">Enter In A Sentence</label>
+          <input type="text" name="sentence" id="sentence">
+          <br>
+          <br>
+          <label for="find">Which Word Would You Like To Replace</label>
+          <input type="text" name="find" id="find">
+          <br>
+          <br>
+          <label for="replace">What Would You Like To Replace It With</label>
+          <input type="text" name="replace" id="replace">
 
-            <button type="button" class ="btn btn-primary">Submit</button>
-          </form>
-        </div>
+          <button type="button" class ="btn btn-primary">Submit</button>
+        </form>
+
         <div id="result">
-          <h2><span class = "newSentence"></span></h2>
+          <h2><span class="newSentence"></span></h2>
         </div>
       </div>
     </body>
